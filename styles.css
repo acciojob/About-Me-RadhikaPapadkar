@@ -1,1 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #6200ea;
+    color: #fff;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #6200ea;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 0.5rem;
+}
+
+/* Skills Section */
+.skills .skill {
+    margin: 1rem 0;
+}
+
+.skills .skill p {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.skills .skill p i {
+    margin-right: 10px;
+    color: #6200ea;
+    font-size: 1.5rem;
+}
+
+.skills .skill span {
+    display: block;
+    width: 100%;
+    background: #f4f4f9;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.skills .skill span .level {
+    display: block;
+    height: 20px;
+    border-radius: 4px;
+    text-align: right;
+    color: #fff;
+    line-height: 20px;
+    padding-right: 5px;
+    font-size: 0.9rem;
+}
+
+.skills .skill .level-html { background: #f44336; width: 90%; }
+.skills .skill .level-css { background: #2196f3; width: 85%; }
+.skills .skill .level-js { background: #ffc107; width: 70%; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    .skills .skill p {
+        font-size: 1rem;
+    }
